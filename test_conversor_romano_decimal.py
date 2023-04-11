@@ -19,6 +19,9 @@ class TestRomanToDecimal(unittest.TestCase):
     def test_XL(self):
         resultado = roman_to_decimal('XL')
         self.assertEqual(resultado, 40)
+    def test_XL(self):
+        resultado = roman_to_decimal('XLVII')
+        self.assertEqual(resultado, 47)
     def test_L(self):
         resultado = roman_to_decimal('L')
         self.assertEqual(resultado, 50)
